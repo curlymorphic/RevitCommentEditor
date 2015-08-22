@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Comment Editor</Text>
+    <Description>Text editor for comment parameter on selected element</Description>
+    <Assembly>RevitCommentEditor.dll</Assembly>
+    <FullClassName>RevitCommentEditor.Command</FullClassName>
+    <ClientId>ea8d6191-f5bf-4dfc-8651-b3759d07d17d</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>David French  dave.french3@googlemail.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RevitCommentEditor</Name>
+    <Assembly>RevitCommentEditor.dll</Assembly>
+    <FullClassName>RevitCommentEditor.App</FullClassName>
+    <ClientId>3e4b8676-790a-40d0-b2d7-1dd2d165e3aa</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>David French  dave.french3@googlemail.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
